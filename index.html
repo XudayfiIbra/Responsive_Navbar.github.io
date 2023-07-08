@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xudayfi</title>
+    <!-- main css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    
+     <nav class="navbar">
+        <div class="nav-overlay" onclick="toggleMenuOpen()"></div>
+
+        <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+            <span class="material-icons">menu</span>
+        </button>
+        <h1 class="nav-title">xudayfi</h1>
+        <nav class="navbar-menu">
+            <button type="button" class="active">youtube</button>
+            <button type="button" class="active">twitter</button>
+            <button type="button">github</button>
+        </nav>
+     </nav>
+
+
+     <!-- js -->
+     <script type="text/javascript">
+       const toggleMenuOpen = () => document.body.classList.toggle("open");
+     </script>
+     
+
+</body>
+</html>
